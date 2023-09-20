@@ -1,0 +1,151 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>more about semantic </title>
+<meta charset="utf-8">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+<h1>New Semantic Elements in HTML5</h1>
+<img src="img/semanticElement.gif"/>
+
+<br>
+
+many Element  
+  <!--   <article>
+    <aside>
+    <details>
+    <figcaption>
+    <figure>
+    <footer>
+    <header>
+    <main>
+    <mark>
+    <nav>
+    <section>
+    <summary>
+    <time> -->
+
+	
+	<h2> section element </h2>
+	==================<br>
+	"A section is a thematic grouping of content, typically with a heading."
+	
+	 <section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+	</section> 
+	
+	<h2>article</h2>
+	==================<br>
+	The <article> element specifies independent, self-contained content.
+
+An article should make sense on its own, and it should be possible to read it independently from the rest of the web site.
+
+Examples of where an < article > element can be used:
+
+    Forum post
+    Blog post
+    Newspaper article
+
+ <article>
+  <h1>What Does WWF Do?</h1>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+  and build a future in which humans live in harmony with nature.</p>
+</article> 
+
+Nesting Semantic Elements
+
+On the Internet, you will find HTML pages with <section> elements containing <article> elements, and <article> elements containing <sections> elements.
+
+You will also find pages with <section> elements containing <section> elements, and <article> elements containing <article> elements.
+
+Note 	Newspaper: The sports articles in the sports section, have a technical section in each article.
+
+<h2>header</h2>
+	==================<br>
+	The <header> element specifies a header for a document or section.
+
+The <header> element should be used as a container for introductory content.
+
+You can have several <header> elements in one document.
+
+ <article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+  and build a future in which humans live in harmony with nature.</p>
+</article> 
+
+
+<h2>Footer</h2>
+	==================<br>
+The <footer> element specifies a footer for a document or section.
+
+A <footer> element should contain information about its containing element.
+
+A footer typically contains the author of the document, copyright information, links to terms of use, contact information, etc.
+
+You can have several <footer> elements in one document.
+
+ <footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer> 
+
+
+<h2>Navigation</h2>
+	==================<br>
+The <nav> element defines a set of navigation links.
+
+The <nav> element is intended for large blocks of navigation links. However, not all links in a document should be inside a <nav> element! 
+
+ <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav> 
+
+
+<h2>Aside</h2>
+	==================<br>
+The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+
+The aside content should be related to the surrounding content.
+
+ <p>My family and I visited The Epcot center this summer.</p>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside> 
+
+<h2> < figure > and < figcaption ></h2>
+	==================<br>
+	In books and newspapers, it is common to have captions with images.
+
+The purpose of a caption is to add a visual explanation to an image.
+
+With HTML5, images and captions can be grouped together in <figure> elements:
+
+ <figure>
+  <img src="img/mountain.jpg" alt="The Mountain Somewhere" >
+  <figcaption>Fig1. - The Pulpit Rock, Norway.</figcaption>
+</figure> 
+
+
+</body>
+
+</html>
